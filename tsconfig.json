@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "outDir": "./public/",
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "module": "ESNext",
+      "target": "ESNext",
+      "jsx": "react",
+      "allowJs": true,
+      "moduleResolution": "node",
+    },
+    
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS"
+        }
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["node_modules"],
+
+    
+  }
